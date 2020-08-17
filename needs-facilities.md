@@ -12,4 +12,4 @@ Scenario: Alert when seating capacity is full
   Given the count of visitors is maximum and is equal to the capacity
   When the visitor enters
   and the count = capacity
-  Then don't let any more visitors enter
+  Then don't let any more visitors enter.
