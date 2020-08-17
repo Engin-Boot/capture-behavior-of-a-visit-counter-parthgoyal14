@@ -7,7 +7,7 @@ that runs the visit-counter
   When the server restarts
   and visitors are coming in
   Then make the visitors wait
-  and recover the last commited state of the visit-counter
+  and recover the last committed state of the visit-counter
   and then let them in
 
 Scenario: Reconcile counts if the sensor is offline for a while
