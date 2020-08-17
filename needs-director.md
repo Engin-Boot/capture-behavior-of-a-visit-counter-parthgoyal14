@@ -3,7 +3,7 @@
 Scenario: Show patient visits during working days and holidays
 
   Given A calendar and a sensor which is working
-  When Patient gets in on working days/ holidays
+  When Patient gets in on working days/holidays
   Then maintain a flag variable for each category
 
 Scenario: Compute parking slots to reserve for visiting specialists
